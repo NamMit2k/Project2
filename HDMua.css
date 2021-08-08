@@ -1,0 +1,273 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.content
+{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border-bottom: 3px solid;
+}
+.left1
+{
+    width: 60%;
+}
+.content .left1 .ul1
+{
+    width: 100%;
+    padding-left: 100px;
+    margin-top: 0;
+    line-height: 30px;
+}
+.content .left1 .ul1 li
+{
+    font-size: 17px;
+    font-family: tahoma;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-table;
+    list-style: none;
+   
+}
+.content .left1 .ul1 li a
+{
+    color: black;
+    text-decoration: none;
+}
+.right1
+{
+    width: 40%;
+}
+.content .right1 .ul2
+{
+    margin-top: 0;
+    line-height: 30px;
+}
+.content .right1 .ul2 li
+{
+    font-size: 15px;
+    font-family: tahoma;
+    padding-right: 50px;
+    float: right;
+    list-style: none; 
+   
+}
+.content .right1 .ul2 li a
+{
+    color: black;
+    text-decoration: none;
+}
+.content .right1 .ul2 li:hover a
+{
+    color: palevioletred;
+}
+.header
+{
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100px;
+}
+.header .logo
+{
+    margin-bottom: 10px;
+    width: 30%;
+    
+}
+.header .search
+{
+    width: 40%;
+}
+.header .support
+{
+    width: 30% ;
+    display: flex;
+}
+.header .support .hotline
+{
+    width: 50%;
+}
+.header .support .hotline .hotline1
+{
+    margin-top: 15px;
+    padding-left: 10px;
+    display: flex;
+}
+.header .support .hotline .hotline1 li
+{
+    list-style: none;
+    text-decoration: none;
+}
+.header .support .hotline .hotline1 li .img1
+{
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+.header .support .hotline .hotline1 .li1 
+{
+    margin-top: 13px;
+}
+.header .support .hotline .hotline1 .li1 p
+{
+    margin-top: 0;
+}
+
+.header .support .market
+{
+    margin-left: 5px;
+    width: 50%;
+}
+.header .support .market .market1
+{
+    margin-top: 15px;
+    padding-left: 10px;
+    display: flex;
+}
+.header .support .market .market1 li
+{
+    list-style: none;
+}
+.header .support .market .market1 .li2
+{
+    margin-top: 17px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.header .support .market .market1 .li3
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.header .support .market .market1 li a
+{
+    color: black;
+    text-decoration: none;
+}
+.header .support .market .market1 li:hover a
+{
+    color: palevioletred;
+}
+
+
+.thanhmenu {
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+}
+.thanhmenu .menungang {
+	width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.thanhmenu .menungang li {
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+.thanhmenu .menungang li a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.thanhmenu .menungang li a:hover {
+    background-color: rgb(119, 114, 114);
+    transition: 0.5s;
+}
+.thanhmenu .menungang li ul {
+	width: 250px;
+	list-style: none;
+	position: absolute;
+	top: 42px;
+	left: 0px;
+	visibility: hidden;
+	transform-origin: 0% 0%;
+	transition: 0,1s;
+    transform: translateY(-10px);
+    z-index: 99;
+
+}
+.thanhmenu .menungang li ul li {
+	background: black;
+	width: 100%;
+	padding: 10px 10px;
+}
+.thanhmenu .menungang li:hover ul {
+	transform: translateY(0px);
+    visibility: visible;
+    transition: 0.5s;
+}
+.thanhmenu .menungang li ul li a {
+	text-decoration: none;
+	display: block;
+	color: white;
+    font-family: tahoma;
+}
+.thanhmenu .menungang li ul li:hover {
+	background-color: rgb(119, 114, 114);
+}
+
+
+.content2
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    height: auto;
+    display: flex;
+}
+.content2 .contentleft1
+{
+    border: 1px solid rgb(214, 212, 212);
+    border-top: 5px solid gray;
+    width: 25%;
+    height: 500px;
+    padding-left: 5px;
+}
+.content2 .contentleft1 ul li a
+{
+    font-size: 13px;
+    font-family: tahoma;
+    
+    text-decoration: none;
+    color: black;
+}
+.content2 .contentleft1 ul li:hover a
+{
+    text-decoration: underline;
+}
+.content2 .contentleft1 .ah5
+{
+    padding-top: 8px;
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content2 .contenttight1
+{
+    margin-left: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+}
+.content2 .contenttight1 table tr td
+{
+    border: 1px solid rgb(214, 212, 212);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.footer
+{
+    height: 150px;
+    border-top: 3px solid black;
+}

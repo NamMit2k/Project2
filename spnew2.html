@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm new 1</title>
+    <link rel="stylesheet" href="Css/Grid.css">
+    <link rel="stylesheet" href="spnam.css">
+    <link rel="stylesheet" href="Css/responsive_spnam.css">
+    <link rel="stylesheet" href="JS/Jquery.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        
+        <div class="grid wide">
+            <div class="header_navbar">
+                    <ul class="header_navbar_items ">
+                        <li><a href=""> <div class="fa fa-phone">0963628375</div></a></li>
+                        <li><a href=""> <div class="fa fa-phone">0985172323</div></a></li>
+                        <li><a href=""><div class="fa fa-envelope-o">bacminhcanh@gmail.com</div></a></li>
+                    </ul>
+                    <ul id="support" class="header_navbar_support">
+                        <li><a href="CauHoiThuongGap.html"><b>Câu hỏi thường gặp</b></a></li>
+                        <li><a href="Gioithieu.html"> <b>Giới thiệu</b></a></li>
+                        <li><a href="Taikhoan.html"><b>Đăng nhập</b></a></li>
+                    </ul>
+                </div>
+            <div class="header_navbar_search">
+                <div class="header_logo">
+                    <img class="logo" src="ảnh_logo/tieude.png" alt="">
+                </div>
+
+                <div class="header_search">
+                    <input  type="text" name="" id="t">
+                    <button id="s">Search</button>
+                    
+                </div>
+                <div class="header_market">
+                    <a href="#" onclick="Giohang()" ><i id="cart"  class="header_cart-icon fas fa-shopping-cart "></i></a>
+                     <span id="number">0</span>
+                </div>
+                
+            </div> 
+           
+        </div>
+    </header>
+
+
+    <nav class="menu">
+        <div class="grid wide">
+            <div class="thanhmenu">
+                <ul class="menungang" >
+                    <li><a href="Home.html"><div class="fa fa-home" style="font-size: 22px;"></div></a></li>
+                    <li><a href="Home.html"> HOME</a></li>
+                    <li><a href="">TRANG SỨC NAM</a>
+                        <ul >
+                            <li><a href="Daychuyennam.html">Dây Chuyền Bạc Nam</a></li>
+                            <li><a href="">Mặt Dây Chuyền Nam</a></li>
+                            <li><a href="">Nhẫn Bạc Nam</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">TRANG SỨC NỮ</a>       
+                        <ul>
+                            <li><a href="">Dây Chuyền Bạc Nữ</a></li>
+                            <li><a href="">Nhẫn Bạc Nữ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">TRANG SỨC TRẺ EM</a></li>
+                    <li><a href="">NHẪN ĐÔI</a></li>
+                    <li><a href="">TRỢ GIÚP</a>
+                        <ul>
+                            <li><a href="HDmua.html">Hướng Dẫn Mua Hàng</a></li>
+                            <li><a href="">Cách Đo Size Nhẫn</a></li>
+                            <li><a href="">Tài Khoản Ngân Hàng</a></li>
+                            <li><a href="">Chính Sách Đổi Trả</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+
+            <!--Menu responsive-->
+            <div class="thanhmenu2">
+                <ul class="menungang2">
+                    <li><a href="Home.html"><div id="iconhome" class="fa fa-home" style="font-size: 20px;"></div></a></li>                    
+                    <li id="home"><a href="Home.html">HOME</a></li>
+                    <li> <a href=""><div id="icondanhsach" class="fa fa-bars"></div> DANH MỤC SẢN PHẨM</a>
+                        <ul >
+                            <li ><a href="">Trang Sức Nam</a></li>
+                            <li ><a href="">Trang Sức Nữ</a></li>
+                            <li ><a href="">Trang Sức Trẻ Em</a></li>
+                            <li><a href="">Nhẫn Đôi</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">TRỢ GIÚP</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!--Slide-->
+    <aside class="slide">
+        <img  id="imgslide" onclick="Changeimg()"  src="ảnh_logo/lgo2.jpg" alt="">
+  
+    </aside>
+
+    <main >
+        <div class="grid wide " id="main">
+            <div class="left col l-2" id="left">
+
+                <div class="contentleft1">
+                    <h5 class="ah5"> <div class="fa fa-bars"></div> DANH MỤC SẢN PHẨM </h5>
+                    <ul>
+                        <li><a href="">TRANG SỨC NAM</a></li>
+                        <li><a href="">DÂY CHUYỀN NAM</a></li>
+                        <li><a href="">LẮC BẠC NAM</a></li>
+                        <li><a href="">MẶT DÂY CHUYỀN NAM</a></li>
+                        <li><a href="">NHẪN BẠC NAM</a></li>
+        
+                        <li><a href="">TRANG SỨC NỮ</a></li>
+                        <li><a href="">DÂY CHUYỀN NỮ</a></li>
+                        <li><a href="">LẮC BẠC NỮ</a></li>
+                        <li><a href="">MẶT DÂY CHUYỀN NỮ</a></li>
+                        <li><a href="">NHẪN BẠC NỮ</a></li>
+        
+                        <li><a href="">DÂY CHUYỀN TRẺ EM</a></li>  
+                        <li><a href="">LẮC CHÂN. LẮC TAY</a></li> 
+                         <li><a href="">TRANG SỨC KHẮC TÊN</a></li>   
+        
+                        <li><a href="">NHẪN ĐÔI</a></li>  
+                        <li><a href="">BẠC ĐÁNH GIÓ</a></li> 
+                        <li><a href="">TRANG SỨC KHẮC TÊN</a></li>  
+                        <li><a href="">TRANG SỨC VÀNG</a></li>  
+        
+                    </ul>
+        
+                </div>
+            </div>
+            <div class="right col l-10 m-12 c-12" >
+                <div class="h3">THÔNG TIN SẢN PHẨM</div>
+
+
+                <div class="row spnam">
+                    <div class="left1 l-5 m-6 c-12">
+                        <img class="imgsp " id="img-prd" src="ảnh_spnew/a2.jpg" alt="">
+                    </div>
+                    <div class="right1 l-7 m-6 c-12" id="dssp">
+                        <table border="1"  cellpadding="0" cellspacing="0" class="infoproduct" >
+                            <tr><td  colspan="2"><b style="color:red">THÔNG TIN CHI TIẾT SẢN PHẨM</b></td></tr>
+                            <tr class="tr">
+                                <td>Sản phẩm</td>
+                                <td class="td "> <div class="img-prd" ><b>Khuyên tai ngôi sao ngọc trai</b></div></td>
+                            </tr>
+                            <tr class="tr">
+                                <td >Trạng thái</td>
+                                <td class="td ">Còn hàng</td>
+                            </tr>
+                            <tr class="tr">
+                                <td>Giá</td>
+                                <td class="td " style="color: red;"><div >320,000 đ</div></td>
+                             </tr>
+                             <tr class="tr">
+                                 <td>Chất liệu</td>
+                                 <td class="td">Bạc ta</td>
+                             </tr>
+                             <tr class="tr">
+                                 <td>Xuất xứ</td>
+                                 <td class="td">Làng nghề vàng bạc Châu Khê</td>
+                             </tr>
+                             <tr class="tr">
+                                <td>Mua hàng</td>
+                                <td class="td"></td>
+                            </tr>
+                
+                             <tr class="tr">
+                                 <td>Hotline</td>
+                                 <td class="td" style="color: red;">0963.628.375</td>
+                             </tr>
+                             
+                        </table>
+                        
+                    </div>
+                </div>
+                 <!--Thẻ modal-->
+                 <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" style="font-size: 30px;">Giỏ Hàng</h5>
+                            <span class="close">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <div class="cart-row">
+                                <span class="cart-item cart-header cart-column" style="font-size: 20px;">Sản Phẩm</span>
+                                <span class="cart-price cart-header cart-column" style="margin-top:-30px; font-size: 20px;">Giá</span>
+                                <span class="cart-quantity cart-header cart-column" style="font-size: 20px;">Số Lượng</span>
+                            </div>
+                            <div class="cart-items">
+                                
+                            </div>
+                            <div class="cart-total">
+                                <strong class="cart-total-title">Tổng Cộng:</strong>
+                                <span class="cart-total-price">0VNĐ</span>
+                            </div>
+                        </div>
+    
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary close-footer" id="close-footer">Đóng</button>
+                            <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                        </div>
+                    </div>
+                </div>
+
+               
+            
+
+
+                <div class="row info">
+                    <div class="h3v2">Thông tin chi tiết sản phẩm</div>
+                     <div class="l-12 m-12 c-12">
+                         <div class="sp" style="display: flex;">
+                            <div class="infoctsp">
+                                <p style="display: none;"><img class="img-prd img3" src="anh_spnew/a2.jpg" alt=""></p>
+                                <p >-Mã số sản phẩm: DCN069</p>
+                                <p >-Tên sản phẩm: <span class="content-product-h3" >Khuyên tai ngôi sao ngọc trai</span></p>
+                                <p >-Giá: <span class="price" >320000 đ</span></p>
+                                <p>-Trọng lượng: dây = 12 chỉ</p>
+                                <p>-Chất Liệu: Bạc ta</p>
+                                <p>-Bảo hành: Bảo hành làm bóng miễn phí</p>
+                            </div>
+                             <div class="add">
+                                <button type="button" class="btn btn-cart" id="btn" style="margin-left: 40px;">Thêm Vào Giỏ</button>
+                             </div>
+                         </div>
+                         <div class="imgspnam">
+                             <img id="imgspnam" src="anh_spnew/a2.jpg" alt="">
+                             <p style="text-align: center;">---------------------------------------------------------------------------------</p>
+                         </div>
+                         <div class="buy">
+                             <p><b>Quý khách có nhu cầu mua hàng, vui lòng liên hệ theo một trong các thông tin sau:</b></p>
+                             <p><b>Hotline:</b>0963.628.375 & 0985.17.2323</p>
+                             <p><b>Add:</b>28 ngõ 151 Nguyễn Đức Cảnh, Hà Nội</p>
+                             <p><b>Thời gian làm việc:</b>9h sáng -> 20h tối</p>
+                             <p style="color: red;"> Lưu ý : Website đã được đăng ký tại Bộ Công Thương vui lòng không sao chép dưới mọi hình thức</p>
+                        </div>
+                     </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+      
+    </main>
+
+    <script src="JS/Giohang.js"></script>
+</body>
+</html>

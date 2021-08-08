@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spham.css">
+    <link rel="stylesheet" href="Grid.css">
+    <script src="D:\HTML\Đồ án\Đồ_án\JS/Jquery.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <div class="grid wide">
+            <div class="row" id="row">
+                <div class="col l-4 m-4 c-4">
+                     <a href="D:\HTML\Đồ án\Đồ_án/Home.html"></a><img src="D:\HTML\Đồ án\Đồ_án\ảnh_logo\tieude.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col l-4 m-4 c-4">
+                    <div class="search">
+                        <input class="input" type="text">
+                        <button class="icon">Tìm kiếm</button>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-4 c-4" id="rightheader">    
+             
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="grid wide">
+            <div class="row sp" >
+                <div class="left">
+                    <h3> <i class="fas fa-coins" style="margin-right: 5px"></i><a href="spham.html" style="text-decoration: none;">QUẢN LÝ SẢN PHẨM</a></h3>
+                    <h3> <i class="fa fa-user" aria-hidden="true" style="margin-right: 5px"></i><a href="Khachhang.html" style="text-decoration: none;">QUẢN LÝ KHÁCH HÀNG</a></h3>
+                    <h3><i class="fas fa-money-check" style="margin-right: 5px" ></i> <a href="taikhoan1.html" style="text-decoration: none;">QUẢN LÝ TÀI KHOẢN</a></h3>
+                     
+                </div>
+                <div class="right">
+                    <h2 style="text-align:center">QUẢN LÝ SẢN PHẨM </h2>
+                    <button  onclick="Them()" style="margin-left: 86%;margin-bottom: 10px; font-size: 20px; background-color: rgb(149, 176, 226);border-radius: 10px; padding: 5px;">Thêm Mới</button>
+                    <table id="table" style="margin-left:20px;" border="1" cellpadding="0" cellspacing="0">
+                        <tr style="text-align: center;">
+                            <td style="width:50px;height: 30px;">STT</td>
+                            <td style="width:110px;">Mã Sản Phẩm</td>
+                            <td style="width:350px">Tên Sản Phẩm</td>
+                            <td  style="width:100px;">Xuất Xứ</td>
+                            <td style="width:80px;">Số Lượng</td>
+                            <td style="width:110px;">Giá Tiền</td>
+                            <td style="width:100px;">Thao Tác</td>
+                        </tr>
+                        <tr id="tr_L01" style="text-align: center;">
+                            <td style'="height: 30px;">1</td>
+                            <td>Sp01</td>
+                            <td>DÂY CHUYỀN BẠC NAM MẶT RỒNG ĐÁ ĐỎ</td>
+                            <td>Việt Nam</td>
+                            <td>10</td>
+                            <td>1,500,000 đ</td>
+                            <td><button>Xóa</button> <button>Sửa</button></td>
+                        </tr>
+                        <tr id="tr_L02" style="text-align: center;">
+                            <td style="height: 30px;">2</td>
+                            <td>Sp02</td>
+                            <td>DÂY CHUYỀN BẠC NAM MẶT RỒNG ĐÁ ĐỎ</td>
+                            <td>Việt Nam</td>
+                            <td>10</td>
+                            <td>1,800,000 đ</td>
+                            <td><button>Xóa</button> <button >Sửa</button></td>
+                        </tr>
+                        <tr id="tr_L03" style="text-align: center;">
+                            <td style="height: 30px;">3</td>
+                            <td>Sp03</td>
+                            <td>DÂY CHUYỀN BẠC NAM MẶT RỒNG ĐÁ BẠC</td>
+                            <td>Việt Nam</td>
+                            <td>10</td>
+                            <td>2,500,000 đ</td>
+                            <td><button>Xóa</button> <button>Sửa</button></td>
+                        </tr>
+                    </table>
+
+                    <div id="Them" class="form-submit" style="text-align: center; margin-top: 100px; font-size: 20px;display: none;">
+                        <label class="lb" for=""> <b style="margin-right:20px">Mã sản phẩm</b> </label>
+                        <input class="input" type="text"> <br>
+
+
+                        <label class="lb"  for=""><b style="margin-right:17px">Tên sản phẩm</b></label>
+                        <input class="input" type="text" name="" id=""> <br>
+
+
+                        <label class="lb"  for=""><b style="margin-right:62px">Xuất Xứ  </b>  </label>
+                        <input class="input" type="text"><br>
+
+                        
+                        <label class="lb"   for=""><b style="margin-right:52px">Số Lượng</b></label> 
+                        <input class="input" type="text"> <br>
+
+
+                        <label class="lb"  for=""><b style="margin-right:107px;">Giá</b></label> 
+                        <input class="input" type="text"> <br>
+
+
+                        <button onclick="Dong()" style="width:80px;height:40px;margin-left: 250px;margin-top: 10px;">Thêm</button>
+                
+                    </div>
+                </div>        
+            </div>  
+        </div>
+    </main>
+
+
+    <script>
+      function Them()
+        {
+          var list1= document.getElementById("Them")
+           list1.style.display="block";
+        } 
+
+
+        function Dong()
+        {
+          var list1= document.getElementById("Them")
+           list1.style.display="none";
+        } 
+    </script>
+</body>
+</html>

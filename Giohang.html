@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="Css/Grid.css">
+    <link rel="stylesheet" href="Giohang.css">
+    <link rel="stylesheet" href="Css/responsive_spnam.css">
+    <link rel="stylesheet" href="JS/Jquery.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="grid wide">
+            <div class="header_navbar">
+                <ul class="header_navbar_items ">
+                    <li><a href="">
+                            <div class="fa fa-phone">0963628375</div>
+                        </a></li>
+                    <li><a href="">
+                            <div class="fa fa-phone">0985172323</div>
+                        </a></li>
+                    <li><a href="">
+                            <div class="fa fa-envelope-o">bacminhcanh@gmail.com</div>
+                        </a></li>
+                </ul>
+                <ul id="support" class="header_navbar_support">
+                    <li><a href="CauHoiThuongGap.html"><b>Câu hỏi thường gặp</b></a></li>
+                    <li><a href="Gioithieu.html"> <b>Giới thiệu</b></a></li>
+                    <li><a href="Taikhoan.html"><b>Đăng nhập</b></a></li>
+                </ul>
+            </div>
+            <div class="header_navbar_search">
+                <div class="header_logo">
+                    <img class="logo" src="ảnh_logo/tieude.png" alt="">
+                </div>
+
+                <div class="header_search">
+                    <input type="text" name="" id="t">
+                    <button id="s">Search</button>
+
+                </div>
+                <div class="header_market">
+                    <a href="#" onclick="Giohang()"><i id="cart" class="header_cart-icon fas fa-shopping-cart "></i></a>
+                    <span id="number">0</span>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <nav class="menu">
+        <div class="grid wide">
+            <div class="thanhmenu">
+                <ul class="menungang">
+                    <li><a href="Home.html">
+                            <div class="fa fa-home" style="font-size: 22px;"></div>
+                        </a></li>
+                    <li><a href="Home.html"> HOME</a></li>
+                    <li><a href="">TRANG SỨC NAM</a>
+                        <ul>
+                            <li><a href="Daychuyennam.html">Dây Chuyền Bạc Nam</a></li>
+                            <li><a href="">Mặt Dây Chuyền Nam</a></li>
+                            <li><a href="">Nhẫn Bạc Nam</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">TRANG SỨC NỮ</a>
+                        <ul>
+                            <li><a href="">Dây Chuyền Bạc Nữ</a></li>
+                            <li><a href="">Nhẫn Bạc Nữ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">TRANG SỨC TRẺ EM</a></li>
+                    <li><a href="">NHẪN ĐÔI</a></li>
+                    <li><a href="">TRỢ GIÚP</a>
+                        <ul>
+                            <li><a href="HDmua.html">Hướng Dẫn Mua Hàng</a></li>
+                            <li><a href="">Cách Đo Size Nhẫn</a></li>
+                            <li><a href="">Tài Khoản Ngân Hàng</a></li>
+                            <li><a href="">Chính Sách Đổi Trả</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+
+            <!--Menu responsive-->
+            <div class="thanhmenu2">
+                <ul class="menungang2">
+                    <li><a href="Home.html">
+                            <div id="iconhome" class="fa fa-home" style="font-size: 20px;"></div>
+                        </a></li>
+                    <li id="home"><a href="Home.html">HOME</a></li>
+                    <li> <a href="">
+                            <div id="icondanhsach" class="fa fa-bars"></div> DANH MỤC SẢN PHẨM
+                        </a>
+                        <ul>
+                            <li><a href="">Trang Sức Nam</a></li>
+                            <li><a href="">Trang Sức Nữ</a></li>
+                            <li><a href="">Trang Sức Trẻ Em</a></li>
+                            <li><a href="">Nhẫn Đôi</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">TRỢ GIÚP</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main>
+        <div class="grid wide " id="main">
+            <div class="left col l-2" id="left">
+
+                <div class="contentleft1">
+                    <h5 class="ah5">
+                        <div class="fa fa-bars"></div> DANH MỤC SẢN PHẨM
+                    </h5>
+                    <ul>
+                        <li><a href="">TRANG SỨC NAM</a></li>
+                        <li><a href="">DÂY CHUYỀN NAM</a></li>
+                        <li><a href="">LẮC BẠC NAM</a></li>
+                        <li><a href="">MẶT DÂY CHUYỀN NAM</a></li>
+                        <li><a href="">NHẪN BẠC NAM</a></li>
+
+                        <li><a href="">TRANG SỨC NỮ</a></li>
+                        <li><a href="">DÂY CHUYỀN NỮ</a></li>
+                        <li><a href="">LẮC BẠC NỮ</a></li>
+                        <li><a href="">MẶT DÂY CHUYỀN NỮ</a></li>
+                        <li><a href="">NHẪN BẠC NỮ</a></li>
+
+                        <li><a href="">DÂY CHUYỀN TRẺ EM</a></li>
+                        <li><a href="">LẮC CHÂN. LẮC TAY</a></li>
+                        <li><a href="">TRANG SỨC KHẮC TÊN</a></li>
+
+                        <li><a href="">NHẪN ĐÔI</a></li>
+                        <li><a href="">BẠC ĐÁNH GIÓ</a></li>
+                        <li><a href="">TRANG SỨC KHẮC TÊN</a></li>
+                        <li><a href="">TRANG SỨC VÀNG</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <div class="right col l-10 m-12 c-12">
+                <div class="link">
+                    <p class="lk">Trang chủ <i class="fa fa-arrow-right" aria-hidden="true"></i> Giỏ hàng</p>
+
+                </div>
+                <p class="info">
+                    <b>Phí vận chuyển và thời gian giao hàng :</b> <br>
+                    * Nội thành Hà Nội phí vận chuyển là <b>20.000 đ -> 40.000 đ</b> tuỳ từng địa điểm ( shop giao hàng trong ngày). <br>
+                    * Khách hàng ở ngoại thành phí vận chuyển là 30.000 đ. ( thời gian nhận hàng 2-4 ngày). <br>
+                    * Lưu ý: Đối với đơn hàng > 1 triệu và hàng đặt theo yêu cầu, quý khách hàng chuyển khoản đặt cọc trước cho shop.
+                    * Tham khảo <a href="HDmua.html" style="text-decoration: none;">Hướng dẫn mua hàng </a>
+                </p>
+                <p>
+                    <b style="font-size: 20px;">Thông tin đơn hàng:</b>
+                </p>
+                <form action="">
+                    <table border="1"   cellpadding="0" cellspacing="0" style="margin-left:auto;margin-right:auto;">
+                        <tr>
+                            <td style="width:150px;    text-align: center;background-color: black; color: white;"><b>Hình ảnh</b></td>
+                            <td style="width:320px;    text-align: center;background-color: black; color: white;"><b>Tên sản phẩm</b></td>
+                            <td style="width:90px;    text-align: center;background-color: black; color: white;"> <b>Đơn giá (VND)</b></td>
+                            <td style="width:120px;    text-align: center;background-color: black; color: white;"><b>Số lượng</b></td>
+                            <td style="width:120px;    text-align: center;background-color: black; color: white;"><b>Tổng cộng</b></td>
+                            <td style="width:80px;    text-align: center;background-color: black; color: white;"><b>Thao tác</b></td>
+                    </tr>
+
+                    <tr>
+                        <td style="width:150px;    text-align: center;"><img style="width:80%;height:auto;" src="ảnh_daychuyennam/a14.jpg" alt=""></td>
+                        <td style="text-align: center; font-size: 22px;">Dây chuyền nam mặt rồng đỏ</td>
+                        <td style="text-align: center; font-size: 19px;">1,800,000 đ</td>
+                        <td><input style="width:80%; margin-left: 8px;" type="number" value="1"></td>
+                        <td style="text-align: center; font-size: 19px;">1,800,000 đ</td>
+                        <td style="text-align: center; font-size: 22px;"><button>Xóa</button></td>
+                    </tr>
+                    </table>
+                </form>
+
+                <div class="btn">
+                    <button style="width:80px;height:40px"><b>Xóa Hết</b></button>
+                    <button style="width:120px;height:40px"><b>Gửi Đơn Hàng</b></button>
+                    <a href="Home.html"><button style="width:160px;height:40px;margin-top: 5px;"><b>Tiếp Tục Mua Sắm</b></button></a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </main>
+
+
+    
+    <footer class="footer ">
+        <div class="grid wide footer__contain ">
+            <div class="row ">
+                <div class="col l-2-4 m-4 c-6 ">
+                    <h3 class="footer__heading ">Chắm sóc khách hàng</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Trung tâm trợ giúp</span></a>
+                        </li>
+                        <li class="footer-item "> 
+                            <a href=" " class="footer-item__link "><span>Hướng dẫn mua hàng</span></a>
+                        </li>
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Chính sách vận chuyển</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6 ">
+                    <h3 class="footer__heading ">Về chúng tôi</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Giới thiệu về Shop</span></a>
+                        </li>
+                        <li class="footer-item "> 
+                            <a href=" " class="footer-item__link "><span>Điều khoản về Shop</span></a>
+                        </li>
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Chính sách bảo mật</span></a>
+                        </li>
+                    </ul>
+                </div>
+               
+                <div class="col l-2-4 m-4 c-6 ">
+                    <h3 class="footer__heading ">Theo dõi chúng tôi trên</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <a href="https://www.facebook.com/MyphamOhuiLGvina/ " class="footer-item__link ">
+                                <i class="footer-item__icon fab fa-facebook "></i>
+                                <span>Facebook</span> 
+                            </a>
+                        </li class="footer-item ">
+                        <!-- <li>
+                            <a href=" " class="footer-item__link ">
+                                <i class="footer-item__icon fab fa-instagram "></i>
+                                <span>Instagram</span> </a>
+                        </li>
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link ">
+                                <i class="footer-item__icon fab fa-linkedin "></i>
+                                <span>LinkedIn</span> 
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-8 c-6 ">
+                    <h3 class="footer__heading ">Vào cửa hàng trên ứng dụng</h3>
+                    <div class="footer__download ">
+                         
+                        <div class="footer__download-apps ">
+                            <a href=" " class="footer__download-app-link ">
+                                <img src="ảnh_logo/Google Play.png" alt="Google Play " class="footer__download-app-img ">
+                            </a>
+                            <a href=" " class="footer__download-app-link ">
+                                <img src="ảnh_logo/App Store.png " alt="App Store " class="footer__download-app-img ">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

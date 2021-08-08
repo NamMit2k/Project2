@@ -1,0 +1,374 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 130px;
+    border-bottom: 2px solid black;
+}
+.header .header_navbar
+{
+    width: 100%;
+    display: flex;
+    height: 30px;
+    
+
+}
+.header_navbar .header_navbar_items
+{
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    margin-top: 0;
+    display: flex;
+
+}
+.header_navbar .header_navbar_items li a
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.header_navbar .header_navbar_support
+{
+    width: 50%;
+    height: 30px;
+    list-style: none;
+    margin-top: 0;
+    display: flex;
+}
+
+.header_navbar .header_navbar_support li a
+{
+    color: black;
+    line-height: 30px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.header_navbar_search
+{
+    margin-top: 2px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.header_navbar_search .header_logo
+{
+    width: 30%;
+    height: 100px;
+}
+.header_navbar_search .header_logo .logo
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100px;
+}
+.header_navbar_search .header_search
+{
+    display: flex;
+    width: 50%;
+    height: 100px;
+}
+.header_navbar_search .header_search #t
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    height: 20px;
+    width: 60%;
+
+}
+.header_navbar_search .header_search #s
+{
+    height: 26px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.header_navbar_search .header_market
+{
+    width: 20%;
+    height: 100px;
+}
+.header_navbar_search .header_market #iconmk
+{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: rgb(48, 47, 47);
+}
+.header_navbar_search .header_market #number
+{
+    position: absolute;
+    top: 58px;
+    width: 18px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+
+.menu
+{
+    background-color: black;
+}
+.thanhmenu
+{
+    position: relative;
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+}
+.thanhmenu .menungang {
+    margin-top: 0;
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.thanhmenu .menungang li {
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+.thanhmenu .menungang li a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.thanhmenu .menungang li a:hover {
+    background-color: rgb(119, 114, 114);
+    transition: 0.5s;
+}
+.thanhmenu .menungang li ul {
+	width: 250px;
+	list-style: none;
+	position: absolute;
+	top: 38px;
+	left: -42px;
+	visibility: hidden;
+	transform-origin: 0% 0%;
+	transition: 0,1s;
+    transform: translateY(-10px);
+    z-index: 99;
+
+}
+.thanhmenu .menungang li ul li {
+	background: black;
+	width: 100%;
+	padding: 10px 10px;
+}
+.thanhmenu .menungang li:hover ul {
+	transform: translateY(0px);
+    visibility: visible;
+    transition: 0.5s;
+}
+.thanhmenu .menungang li ul li a {
+	text-decoration: none;
+	display: block;
+	color: white;
+    font-family: tahoma;
+}
+.thanhmenu .menungang li ul li:hover {
+	background-color: rgb(119, 114, 114);
+}
+
+/*  Menu responsive*/
+.thanhmenu2 {
+    display: block;
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+}
+.thanhmenu2 .menungang2 {
+    margin-left: -120px;
+    margin-top: 0;
+    height: 40px;
+    text-align: center;
+}
+.thanhmenu2 .menungang2 li {
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+.thanhmenu2 .menungang2 li a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.thanhmenu2 .menungang2 li a:hover {
+    background-color: rgb(119, 114, 114);
+    transition: 0.5s;
+}
+.thanhmenu2 .menungang2 li ul {
+	width: 250px;
+	list-style: none;
+	position: absolute;
+	top: 39px;
+	left: 0px;
+	visibility: hidden;
+	transform-origin: 0% 0%;
+	transition: 0,1s;
+    transform: translateY(-10px);
+    z-index: 20;
+
+}
+.thanhmenu2 .menungang2 li ul li {
+    border-radius: 5px;
+	background: black;
+	width: 100%;
+	padding: 10px 10px;
+}
+.thanhmenu2 .menungang2 li:hover ul {
+	transform: translateY(0px);
+    visibility: visible;
+    transition: 0.5s;
+}
+.thanhmenu2 .menungang2 li ul li a {
+	text-decoration: none;
+	display: block;
+	color: white;
+    font-family: tahoma;
+}
+.thanhmenu2 .menungang2 li ul li:hover {
+	background-color: rgb(119, 114, 114);
+}
+
+.g{
+	
+	border-bottom: solid 1px;
+	border-color: #EBEBEB
+}
+.tai{
+	
+display: inline-block;
+	
+margin-left: 20px;
+	
+margin-top: 10px;
+}
+.t{
+	width: 1100px;
+	height: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+.t>h1{
+	padding-top: 15px;
+	font-size: 24px;
+	padding-left: 24px;
+}
+.tk{
+    height: auto;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+
+.dangnhap{
+    border: solid #EBEBEB;
+    margin-top: 100px;
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+
+.dangnhap .d{
+	padding-left: 30px;
+	padding-top: 10px;
+}
+.dangki{
+    width: 50%;
+    border: solid #EBEBEB;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+.dangki .ki{	
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.button{
+	width: 110px;
+	height: 40px;
+	color: white;
+	background: red;
+	cursor: pointer;
+}
+
+
+
+/* Footer */
+.footer {
+    margin-left: 150px;
+    padding-top: 16px;
+
+    background-color: #F7F6FF;
+}
+.footer__heading {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--text-color);
+
+}
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-item__link {
+    text-transform: uppercase;
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: #737373;
+    padding: 2px 0;
+    align-items: center;
+}
+
+.footer-item__icon {
+    font-size: 20px;
+    margin: -1px 8px 0 0;
+}
+.footer__download {
+    display: flex;
+}
+.footer__download-qr {
+    width: 90px;
+    height: 84px;
+    /* object-fit: contain; */
+    border: 1px solid var(--border-color);
+}
+.footer__download-apps {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer__download-app-img {
+    height: 20px;
+    /* margin-top: 10px; */
+    
+}
+.footer__download-app-link {
+    text-decoration: none;
+    color: transparent;
+}

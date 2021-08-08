@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài khoản</title>
+    <link rel="stylesheet" href="Taikhoan.css">
+    <link rel="stylesheet" href="Css/Grid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="grid wide">
+            <div class="header_navbar">
+                <ul class="header_navbar_items ">
+                    <li><a href="">
+                            <div class="fa fa-phone">0963628375</div>
+                        </a></li>
+                    <li><a href="">
+                            <div class="fa fa-phone">0985172323</div>
+                        </a></li>
+                    <li><a href="">
+                            <div class="fa fa-envelope-o">bacminhcanh@gmail.com</div>
+                        </a></li>
+                </ul>
+                <ul id="support" class="header_navbar_support">
+                    <li><a href="CauHoiThuongGap.html"><b>Câu hỏi thường gặp</b></a></li>
+                    <li><a href="Gioithieu.html"> <b>Giới thiệu</b></a></li>
+                    <li><a href=""><b>Đăng nhập</b></a></li>
+                </ul>
+            </div>
+            <div class="header_navbar_search">
+                <div class="header_logo">
+                    <img class="logo" src="ảnh_logo/tieude.png" alt="">
+                </div>
+
+                <div class="header_search">
+                    <input type="text" name="" id="t">
+                    <button id="s">Search</button>
+
+                </div>
+                <div class="header_market">
+                    <a href=""><i id="iconmk" class="header_cart-icon fas fa-shopping-cart "></i></a>
+                    <span id="number">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="grid wide">
+            <div class="thanhmenu">
+                <ul class="menungang">
+                    <li><a href="Home.html">
+                            <div class="fa fa-home" style="font-size: 22px;"></div>
+                        </a></li>
+                    <li><a href="Home.html"> HOME</a></li>
+                    <li><a href="">TRANG SỨC NAM</a>
+                        <ul>
+                            <li><a href="Daychuyennam.html">Dây Chuyền Bạc Nam</a></li>
+                            <li><a href="">Mặt Dây Chuyền Nam</a></li>
+                            <li><a href="">Nhẫn Bạc Nam</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">TRANG SỨC NỮ</a>
+                        <ul>
+                            <li><a href="">Dây Chuyền Bạc Nữ</a></li>
+                            <li><a href="">Nhẫn Bạc Nữ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">TRANG SỨC TRẺ EM</a></li>
+                    <li><a href="">NHẪN ĐÔI</a></li>
+                    <li><a href="">TRỢ GIÚP</a>
+                        <ul>
+                            <li><a href="HDmua.html">Hướng Dẫn Mua Hàng</a></li>
+                            <li><a href="">Cách Đo Size Nhẫn</a></li>
+                            <li><a href="">Tài Khoản Ngân Hàng</a></li>
+                            <li><a href="">Chính Sách Đổi Trả</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="g">
+            <div class="t">
+                <h2 class="tai">TÀI KHOẢN</h2>
+            </div>
+        </div>
+        <div class="tk">
+            <div class="dangnhap">
+                <h2 class="d"> Đăng nhập</h2>
+                <form id="form_id" name="myform" method="post">
+                    <p>
+                        <label for="username" style="display:inline-block;margin-top: 30px;margin-left: 19px;">Tên tài
+                            khoản hoặc địa chỉ email&nbsp;<span class="required">*</span></label> <br>
+                        <input id="username" name="username" type="text" class="email"
+                            style="margin-left: 18px;margin-top: 8px;width: 400px;height: 25px; ">
+                    </p>
+                    <p>
+                        <label for="password" style="display:inline-block;margin-top: 20px;margin-left: 19px;">Mật
+                            khẩu&nbsp;<span class="required">*</span></label> <br>
+                        <input type="password" name="password" id="password"
+                            style="margin-left: 18px;margin-top: 8px;width: 400px;height: 25px;">
+                    </p>
+                    <button id="submit" onclick="validate()"
+                        style="width: 100px;height: 40px; margin-left: 55%; background-color: red;"><a
+                            style="text-decoration: none; color: white;" href="#"> Submit</a></button>
+                </form>
+            </div>
+            <div class="dangki">
+                <h2 class="ki"> Đăng ký</h2>
+                <form>
+                    <p>
+                        <label for="username" style="display:inline-block;margin-top: 30px;margin-left: 19px;">Tên tài
+                            khoản&nbsp;<span class="required">*</span></label> <br>
+                        <input type="text" class=""
+                            style="margin-left: 18px;margin-top: 8px;width: 400px;height: 25px;">
+                    </p>
+                    <p>
+                        <label for="username" style="display:inline-block;margin-top: 20px;margin-left: 19px;">Địa chỉ
+                            email&nbsp;<span class="required">*</span></label> <br>
+                        <input type="text" class=""
+                            style="margin-left: 18px;margin-top: 8px;width: 400px;height: 25px;">
+                    </p>
+                    <p>
+                        <label for="password" style="display:inline-block;margin-top: 20px;margin-left: 19px;">Mật
+                            khẩu&nbsp;<span class="required">*</span></label> <br>
+                        <input type="password" class="" name="password" id="password"
+                            style="margin-left: 18px;margin-top: 8px;width: 400px;height: 25px;">
+                    </p>
+                    <p>
+                        <button type="submit" class="button" name="login" value="Đăng nhập"
+                            style="margin-left: 55%;margin-top: 30px;">ĐĂNG KÝ</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer class="footer ">
+        <div class="grid wide footer__contain ">
+            <div class="row ">
+                <div class="col l-2-4 m-4 c-6 ">
+                    <h3 class="footer__heading ">Chắm sóc khách hàng</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Trung tâm trợ giúp</span></a>
+                        </li>
+                        <li class="footer-item "> 
+                            <a href=" " class="footer-item__link "><span>Hướng dẫn mua hàng</span></a>
+                        </li>
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Chính sách vận chuyển</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6 ">
+                    <h3 class="footer__heading ">Về chúng tôi</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Giới thiệu về Shop</span></a>
+                        </li>
+                        <li class="footer-item "> 
+                            <a href=" " class="footer-item__link "><span>Điều khoản về Shop</span></a>
+                        </li>
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Chính sách bảo mật</span></a>
+                        </li>
+                    </ul>
+                </div>
+               
+                <div class="col l-2-4 m-4 c-6 ">
+                    <h3 class="footer__heading ">Theo dõi chúng tôi trên</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <a href="https://www.facebook.com/MyphamOhuiLGvina/ " class="footer-item__link ">
+                                <i class="footer-item__icon fab fa-facebook "></i>
+                                <span>Facebook</span> 
+                            </a>
+                        </li class="footer-item ">
+                        <!-- <li>
+                            <a href=" " class="footer-item__link ">
+                                <i class="footer-item__icon fab fa-instagram "></i>
+                                <span>Instagram</span> </a>
+                        </li>
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link ">
+                                <i class="footer-item__icon fab fa-linkedin "></i>
+                                <span>LinkedIn</span> 
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-8 c-6 ">
+                    <h3 class="footer__heading ">Vào cửa hàng trên ứng dụng</h3>
+                    <div class="footer__download ">
+                         
+                        <div class="footer__download-apps ">
+                            <a href=" " class="footer__download-app-link ">
+                                <img src="ảnh_logo/Google Play.png" alt="Google Play " class="footer__download-app-img ">
+                            </a>
+                            <a href=" " class="footer__download-app-link ">
+                                <img src="ảnh_logo/App Store.png " alt="App Store " class="footer__download-app-img ">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </footer>
+
+
+    
+    <script>
+
+
+        function validate() {
+
+            var username = document.getElementById("username").value;
+
+            var password = document.getElementById("password").value;
+
+            if (username == "NguyenDucManh" && password == "123") {
+
+                alert("Đăng nhập thành công");
+                location.href = "http://localhost:50806/Home/View_Index"
+
+
+            }
+
+            else {
+                alert("Đăng nhập thất bại !!! Kiểm tra lại thông tin tai khoản");
+                Location.href = "http://localhost:50806/Home/Login"
+
+            }
+
+            return false;
+
+        }
+    </script>
+</body>
+
+</html>

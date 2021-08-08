@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="Css/Home.css">
+    <link rel="stylesheet" href="Css/Grid.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        
+        <div class="grid wide">
+            <div class="header_navbar" >
+                    <ul class="header_navbar_items ">
+                        <li><a href=""> <div class="fa fa-phone">0963628375</div></a></li>
+                        <li><a href=""> <div class="fa fa-phone">0985172323</div></a></li>
+                        <li><a href=""><div class="fa fa-envelope-o">bacminhcanh@gmail.com</div></a></li>
+                    </ul>
+                    <ul id="support" class="header_navbar_support">
+                        <li style="margin-left:90px;"><a href="CauHoiThuongGap.html"><b>Câu hỏi thường gặp</b></a></li>
+                        <li><a href="Gioithieu.html"> <b>Giới thiệu</b></a></li>
+                        <li><a href="Taikhoan.html"><b>Đăng nhập</b></a></li>
+                    </ul>
+            </div>
+            <div class="header_navbar_search">
+                <div class="header_logo">
+                    <img class="logo" src="ảnh_logo/tieude.png" alt="">
+                </div>
+
+                <div class="header_search">
+                    <input  type="text" name="" id="t">
+                    <button id="s">Search</button>
+                    
+                </div>
+                <div class="header_market">
+                    <a href="Giohang.html"><i id="iconmk" class="header_cart-icon fas fa-shopping-cart "></i></a>
+                     <span id="number">0</span>
+                </div>
+            </div>   
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="grid wide">
+            <div class="thanhmenu">
+                <ul class="menungang" >
+                    <li><a href="Home.html"><div class="fa fa-home" style="font-size: 22px;"></div></a></li>
+                    <li><a href="Home.html"> HOME</a></li>
+                    <li><a href="">TRANG SỨC NAM</a>
+                        <ul >
+                            <li><a href="Daychuyennam.html">Dây Chuyền Bạc Nam</a></li>
+                            <li><a href="">Mặt Dây Chuyền Nam</a></li>
+                            <li><a href="">Nhẫn Bạc Nam</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">TRANG SỨC NỮ</a>       
+                        <ul>
+                            <li><a href="Daychuyennu.html">Dây Chuyền Bạc Nữ</a></li>
+                            <li><a href="">Nhẫn Bạc Nữ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">TRANG SỨC TRẺ EM</a></li>
+                    <li><a href="">NHẪN ĐÔI</a></li>
+                    <li><a href="">TRỢ GIÚP</a>
+                        <ul>
+                            <li><a href="HDmua.html">Hướng Dẫn Mua Hàng</a></li>
+                            <li><a href="">Cách Đo Size Nhẫn</a></li>
+                            <li><a href="">Tài Khoản Ngân Hàng</a></li>
+                            <li><a href="">Chính Sách Đổi Trả</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+
+            <!--Menu responsive-->
+            <div class="thanhmenu2">
+                <ul class="menungang2">
+                    <li><a href="Home.html"><div id="iconhome" class="fa fa-home" style="font-size: 20px;"></div></a></li>                    
+                    <li id="home"><a href="Home.html">HOME</a></li>
+                    <li> <a href=""><div id="icondanhsach" class="fa fa-bars"></div> DANH MỤC SẢN PHẨM</a>
+                        <ul >
+                            <li ><a href="">Trang Sức Nam</a></li>
+                            <li ><a href="">Trang Sức Nữ</a></li>
+                            <li ><a href="">Trang Sức Trẻ Em</a></li>
+                            <li><a href="">Nhẫn Đôi</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">TRỢ GIÚP</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!--Slide-->
+    <aside class="slide">
+        <img  id="imgslide" onclick="Changeimg()"  src="ảnh_logo/lgo2.jpg" alt="">
+  
+    </aside>
+
+    <!--Product-->
+    <main> 
+        <div class="grid wide">
+            <div class="row " id="row">
+                <div class="body">
+                    <div class="body1 col l-12 m-12 c-12">
+                        <h3>BẠC MINH CẢNH - CHUYÊN TRANG SỨC BẠC TA CAO CẤP.</h3>
+                        <p><b>Chất lượng được chứng minh bởi hơn 20.000+ khách hàng trong 8 năm qua. Hơn 80.000+ sản phẩm đã được vận chuyển đi khắp mọi miền trong cả nước.</b></p>
+                        <p class="nd">Bạc Minh Cảnh xuất phát từ Làng Nghề vàng Bạc Châu Khê với truyền thống sản xuất vàng bạc lâu đời, Với mong muốn tạo dựng một thương hiệu trang sức dành cho giới trẻ, xứng đáng với niềm tin tưởng của khách hàng. Chúng tôi có nguồn hàng trang sức bạc phong phú với giá cả tận gốc. Các sản nổi bật phẩm như : Dây chuyền, trang sức trẻ em, nhẫn nam, nhẫn nữ, lắc tay nam, lắc tay nữ, mặt chữ dây chuyền…</p>
+                    </div>
+            
+                    <div class="body2 l-12 m-12 c-12 ">
+
+                        <div class="ah1"><h2 ><div class="fa fa-heart" style="color: red;"></div>DANH MỤC TRANG SỨC <div class="fa fa-heart" style="color: red;"></div></h2>
+                    
+
+                        <div class="contentbody row">
+                                
+                            <div class="leftbody r3 l-4 m-4 c-6 ">
+                                <a href="spnam2.html" title="Dây chuyền mặt chữ">
+                                    <img class="imgbody1" src="ảnh_body\bdy1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="leftbody r3 l-4 m-4 c-6">
+                                <a href="spnam3.html" title="Nhẫn bạc nam"><img class="imgbody1" src="ảnh_body\bdy2.jpg" alt=""></a>
+                            </div>
+
+                            <div class="leftbody r3 l-4 m-4 c-6 " >
+                                <a href="spnam4.html" title="Trang sức trẻ em"><img class="imgbody1" src="ảnh_body\bdy3.jpg" alt=""></a>
+                            </div>
+
+                            <div class="leftbody r3 l-4 m-4 c-6" id="dsach1" >
+                              <a href="spnam5.html" title="Nhẫn đôi bạc"><img class="imgbody1" src="ảnh_body\bdy4.jpg" alt=""></a>
+                            </div>
+
+                            <div class="leftbody r3 l-4 m-4 c-6" id="dsach1" >
+                            <a href="spnam7.html" title="Trang sức nữ"> <img class="imgbody1" src="ảnh_body\bdy5.jpg" alt=""></a>
+                            </div>
+
+                            <div class="leftbody r3 l-4 m-4 c-6" id="dsach1" >
+                            <a href="spnam9.html" title="Trang sức nam"><img class="imgbody1" src="ảnh_body\bdy6.jpg" alt=""></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!--Product-->
+        <div class="row">
+            <div class="productnew col">
+                <div class="ah2 l-12 m-12 c-12"><h2> HÀNG MỚI VỀ</h2></div>
+            <div class="producttop row">
+                <div class="l-2-4 m-2-4 c-4" id="product1">
+                    <a href="spnew.html">
+                        <div class="img1">
+                            <img class="imgsp" src="ảnh_spnew\a1.jpg" alt="">
+                        </div>
+                         <div class="nd">
+                            <p class="tittle" >Lắc bạc charm chuột khắc tên cho bé</p>
+                            <p class="gia">370,000 đ</p>
+                        </div>   
+                    </a>
+                </div>
+                
+                <div class="l-2-4 m-2-4 c-4" id="product1">
+                    <a href="spnew2.html">
+                        <div  class="img1">
+                            <img class="imgsp" src="ảnh_spnew\a2.jpg" alt="">
+                        </div>
+                         <div class="nd">
+                             <p class="tittle">Khuyên tai ngôi sao ngọc trai</p>
+                             <p class="gia">320,000 đ</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="l-2-4 m-2-4 c-4" id="product1">
+                    <a href="spnew3.html">
+                        <div  class="img1">
+                            <img class="imgsp" src="ảnh_spnew\a3.jpg" alt="">
+                        </div>
+                         <div class="nd">
+                            <p class="tittle">Bộ trang sức Smile</p>
+                            <p class="gia">470,000 đ</p>
+                        </div>                         
+                    </a>
+                </div>
+
+                <div class="s1 l-2-4 m-2-4 c-4" id="product1">
+                    <a href="spnew4.html">
+                        <div  class="img1">
+                            <img class="imgsp" src="ảnh_spnew\a11.jpg" alt="">
+                        </div>
+                         <div class="nd">
+                         <p class="tittle">Nhẫn nữ bạc xi bạch kim đá to</p>
+                         <p class="gia">250,000 đ</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="s1 l-2-4 m-2-4 c-4" id="product1">
+                    <a href="">
+                        <div class="img1">
+                            <img class="imgsp" src="ảnh_spnew\a12.jpg" alt="">
+                        </div>
+                         <div class="nd">
+                            <p class="tittle">Nhẫn nữ bạc xi bạch kim mặt vuông</p>
+                            <p class="gia">250,000 đ</p>
+                        </div>
+                    </a>
+                </div>  
+ 
+                <div class="s1 l-2-4 m-2-4 c-4" id="product1">
+                    <a href="">
+                        <div class="img1">
+                            <img class="imgsp" src="ảnh_spnew\a6.jpg" alt="">
+                            
+                          
+                        </div>
+                         <div class="nd">
+                            <p class="tittle">Bộ trang sức bạc đá tròn</p>
+                            <p class="gia">370,000 đ</p>
+                        </div>  
+                
+                    </a>
+                </div>  
+                <div class="s1 l-2-4 m-2-4 c-4" id="product1">
+                    <a href="">
+                        <div class="img1">
+                            <img class="imgsp" src="ảnh_spnew\a7.jpg" alt="">
+                        </div>
+                         <div class="nd">
+                            <p class="tittle">Dây chuyền khắc tên hình con lợn cho bé</p>
+                            <p class="gia">230,000 đ</p>
+                        </div>
+                         
+                    </a>
+                </div>  
+                <div class="s1 l-2-4 m-2-4 c-4" id="product1">
+                    <a href="">
+                        <div class="img1">
+                            <img class="imgsp" src="ảnh_spnew\a8.jpg" alt="">
+                        </div>
+                         <div class="nd">
+                            <p class="tittle">Nhẫn bạc nam mặt đá trắng</p>
+                            <p class="gia">390,000 đ</p>
+                        </div>
+                         
+                    </a>
+                </div>  
+                <div class="s1 l-2-4 m-2-4 c-4" id="product1">
+                    <a href="">
+                        <div class="img1">
+                            <img class="imgsp" src="ảnh_spnew\a9.jpg" alt="">
+                        </div>
+                         <div class="nd">
+                            <p class="tittle">Khuyên tai bi vàng càng cong</p>
+                            <p class="gia">790,000 đ</p>
+                        </div>
+                    </a>
+                </div>  
+                <div class="s1 l-2-4 m-2-4 c-5 s10" id="product1">
+                    <a href="">
+                        <div class="img1">
+                            <img class="imgsp" src="ảnh_spnew\a10.jpg" alt="">
+                        </div>
+                         <div class="nd">
+                            <p class="tittle">Bông tai bi bạc càng cong</p>
+                            <p class="gia">220,000 đ</p>
+                        </div>
+                    </a>
+                </div>   
+              </div> 
+           </div>
+           </div>
+         </div>
+
+    </main>
+    <footer class="footer ">
+        <div class="grid wide footer__contain ">
+            <div class="row ">
+                <div class="col l-2-4 m-4 c-6 ">
+                    <h3 class="footer__heading ">Chắm sóc khách hàng</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Trung tâm trợ giúp</span></a>
+                        </li>
+                        <li class="footer-item "> 
+                            <a href=" " class="footer-item__link "><span>Hướng dẫn mua hàng</span></a>
+                        </li>
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Chính sách vận chuyển</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-4 c-6 ">
+                    <h3 class="footer__heading ">Về chúng tôi</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Giới thiệu về Shop</span></a>
+                        </li>
+                        <li class="footer-item "> 
+                            <a href=" " class="footer-item__link "><span>Điều khoản về Shop</span></a>
+                        </li>
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link "><span>Chính sách bảo mật</span></a>
+                        </li>
+                    </ul>
+                </div>
+               
+                <div class="col l-2-4 m-4 c-6 ">
+                    <h3 class="footer__heading ">Theo dõi chúng tôi trên</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <a href="https://www.facebook.com/MyphamOhuiLGvina/ " class="footer-item__link ">
+                                <i class="footer-item__icon fab fa-facebook "></i>
+                                <span>Facebook</span> 
+                            </a>
+                        </li class="footer-item ">
+                        <!-- <li>
+                            <a href=" " class="footer-item__link ">
+                                <i class="footer-item__icon fab fa-instagram "></i>
+                                <span>Instagram</span> </a>
+                        </li>
+                        <li class="footer-item ">
+                            <a href=" " class="footer-item__link ">
+                                <i class="footer-item__icon fab fa-linkedin "></i>
+                                <span>LinkedIn</span> 
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="col l-2-4 m-8 c-6 ">
+                    <h3 class="footer__heading ">Vào cửa hàng trên ứng dụng</h3>
+                    <div class="footer__download ">
+                         
+                        <div class="footer__download-apps ">
+                            <a href=" " class="footer__download-app-link ">
+                                <img src="ảnh_logo/Google Play.png" alt="Google Play " class="footer__download-app-img ">
+                            </a>
+                            <a href=" " class="footer__download-app-link ">
+                                <img src="ảnh_logo/App Store.png " alt="App Store " class="footer__download-app-img ">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="JS/Home.js"></script>
+</body>
+</html>
